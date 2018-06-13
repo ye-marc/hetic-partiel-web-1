@@ -1,5 +1,9 @@
 # Partiel WEB 1 - P2020
 
+** Autorisation du téléphone pour le partage de connexion **
+
+Tout rendu autre que sur GitHub, une branch ... se verra attribué un 0.
+
 ## Consignes
 
 Vous devez réparer et/ou développer les bugfix/features qu'on retrouve dans l'onglet **issues**.

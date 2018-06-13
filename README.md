@@ -1,6 +1,6 @@
 # Partiel WEB 1 - P2020
 
-** Autorisation du téléphone pour le partage de connexion **
+**Autorisation du téléphone pour le partage de connexion**
 
 Tout rendu autre que sur GitHub, une branch ... se verra attribué un 0.
 

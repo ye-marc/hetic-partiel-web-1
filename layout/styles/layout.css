@@ -7,7 +7,7 @@
   padding: 15px 0;
   font-size: .8rem;
   text-transform: uppercase;
-} 
+}
 
 #topbar * {
   margin: 0;
@@ -51,6 +51,7 @@
 
 #pageintro {
   padding: 180px 0;
+
 }
 
 #pageintro article {
@@ -126,6 +127,11 @@
 .clients li a {
   display: inline-block;
   max-width: 100%;
+  transition: 0.3s ease
+}
+.clients li a:hover {
+  box-shadow: 10px 5px 5px pink;
+
 }
 
 .meta li {
@@ -1067,6 +1073,28 @@ table a, #comments a {
   background-color: inherit;
 }
 
+.btn-txt{
+  transition: 0.3s ease
+}
+.btn-txt:hover{
+  color: pink;
+  opacity: 1
+}
+
+.fa-btn{transition: 0.3s ease}
+
+.fa-btn:hover{color: pink;
+transform: rotate(360deg);}
+
+.btn-submit{transition: 0.3s ease}
+
+.btn-submit:hover{
+  background-color: black;
+  border-color: pink;
+  border-style: solid;
+   border-width: 1px;
+}
+
 /* ------------------------------------------------------------------------------------------------------------ */
 
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -1096,7 +1124,9 @@ table a, #comments a {
 @media screen and (max-width:900px) {
   .hoc {
     max-width: 90%;
+
   }
+
   #topbar {}
   #header {
     padding: 30px 0;
@@ -1156,7 +1186,7 @@ table a, #comments a {
   }
   #pageintro article {
     max-width: none;
-    text-align: left;
+    text-align: center;
   }
   #pageintro .heading {
     font-size: 2rem;
@@ -1165,16 +1195,19 @@ table a, #comments a {
     max-width: none;
   }
   .services+footer {
-    text-align: left;
+    text-align: center;
   }
   .cta> :first-child {
     margin-top: 0;
   }
+
 }
 
 /* Other --------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width:650px) {
+  * {margin: 0 auto}
+
   .scrollable {
     display: block;
     width: 100%;

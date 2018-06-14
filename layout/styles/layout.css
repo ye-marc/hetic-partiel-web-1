@@ -1106,6 +1106,8 @@ transform: rotate(360deg);}
    border-width: 1px;
 }
 
+
+
 /* ------------------------------------------------------------------------------------------------------------ */
 
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -1133,6 +1135,81 @@ transform: rotate(360deg);}
 /* Mobile Devices --------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width:900px) {
+  /*burger menu */
+
+  .hidden {
+    display: none;
+  }
+
+  .visuallyhidden {
+    opacity: 0;
+  }
+
+  .container-menu {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-out
+  }
+
+  .container-menu-txt {
+    margin-top: 50vh;
+    transition: 0.6s ease-out;
+    transform: translateY(-40%);
+  }
+
+  .menu-section {
+    text-decoration: none;
+    font-family: montserrat;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.3s ease;
+    font-size: 20px;
+  }
+
+  .menu-section:hover {
+    background-color: rgb(245, 245, 245)
+  }
+
+  .menu-section:first-child {
+    margin-top: 20px
+  }
+  .burger {
+    width: 30px;
+    height: 30px;
+    left: 30px;
+    opacity: 1;
+    margin-top: 20px;
+
+    position: fixed !important;
+    cursor: pointer;
+    transition: 0.3s ease;
+    z-index: 1000;
+
+  }
+
+  .burger-bar {
+    width: 30px;
+    height: 3px;
+    background-color: #CF9C67;
+    border-radius: 20%;
+    transition: 0.3s ease;
+  }
+
+  .burger-bar:first-child {
+    margin-top: 12px;
+    margin-bottom: 10px
+  }
+
+/*fin burger menu */
   .hoc {
     max-width: 90%;
 
